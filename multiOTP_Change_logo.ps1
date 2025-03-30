@@ -2,7 +2,7 @@
 $inputImage = Read-Host "Digite o caminho completo da imagem de entrada"
 
 # Define a chave de registro
-$registryPath = "HKCR:\CLSID\{FCEFDFAB-B0A1-4C4D-8B2B-4FF4E0A3D978}"
+$registryPath = "Registry::HKEY_CLASSES_ROOT\CLSID\{FCEFDFAB-B0A1-4C4D-8B2B-4FF4E0A3D978}"
 $registryName = "v1_bitmap_path"
 $registryValue = $inputImage
 
